@@ -359,6 +359,11 @@ body{
     border-color: #E7F434;
 }
 
+.surveyor-thumb {
+    object-fit: cover;
+    object-position: center 65%;
+}
+
 @media (max-width: 600px) {
     .hero-content h1 {
         font-size: 28px;
