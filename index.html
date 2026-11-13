@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forgotten Footprints</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body id="home">
+        <nav class="navbar">
+            <div class="logo">✦ FORGOTTEN FOOTPRINTS</div>
+            <div class="nav-links">
+                <a href="#home">HOME</a>
+                <a href="#explore">EXPLORE</a>
+                <a href="#about">ABOUT</a>
+            </div>
+        </nav>
+
+        <section class="hero-banner">
+
+            <img src="Images/hero-space.jpg" alt="Astronaut floating above Earth">
+            
+            <div class="hero-content">
+                <h1>FORGOTTEN FOOTPRINTS</h1>
+                <h2>Every abandoned machine has a story.</h2>
+                <p>Discover the stories of NASA's machines left behind on the Moon and Mars.</p>
+                <a href="#explore" class="explore-button">EXPLORE NOW</a>
+            </div>
+        </section>
+
+        <section class="explore-section" id="explore">
+
+            <h2>EXPLORE THE FOOTPRINTS</h2>
+
+            <p class="explore-description">
+                Meet the machines that explored the Moon and Mars,
+                and discover the stories they have left behind.
+            </p>
+
+            <div class="filter-buttons">
+                <button data-filter="all">ALL</button>
+                <button data-filter="moon">MOON</button>
+                <button data-filter="mars">MARS</button>
+            </div>
+
+            <div class="machine-container">
+
+                <a href="alsep.html" class="machine-card" data-planet="moon">
+                    <h3>ALSEP</h3>
+                    <span class="planet-label moon">MOON</span>
+                    
+                    <img src="Images/ALSEP/alsep-alan-bean-deployment.jpg.jpg" alt="ALSEP deployment on the Moon">
+
+                    <p>A collection of scientific instruments that studied the Moon.</p>
+
+                </a>
+                <a href="surveyor-3.html" class="machine-card" data-planet="moon">
+                    <h3>Surveyor 3</h3>
+                    <span class="planet-label moon">MOON</span>
+
+                    <img src="Images/Surveyor-3/surveyor-3-apollo-12-lunar-module.jpg" alt="surveyor-3-apollo-12-lunar-module">
+                    
+                    <p>A robotic spacecraft that explored the lunar surface.</p>
+                </a>
+
+                <a href="sojourner.html" class="machine-card" data-planet="mars">
+                    <h3>Sojourner</h3>
+                    <span class="planet-label mars">MARS</span>
+
+                    <img src="Images/Sojourner/sojourner-before-deployment-t.jpg" alt="Sojourner rover before deployment on Mars">
+
+                    <p>The first rover to explore the surface of Mars.</p>
+                </a>
+
+                <a href="opportunity.html" class="machine-card" data-planet="mars">
+                    <h3>Opportunity</h3>
+                    <span class="planet-label mars">MARS</span>
+
+                    <img src="Images/Opportunity/opportunity-self-portrait-baw.jpg" alt="opportunity-self-portrait-baw">
+                    <p>A rover that explored Mars for more than 14 years.</p>
+                </a>
+
+
+            </div>
+
+        </section>
+        <section class="about-section" id="about">
+            <h2>ABOUT THE PROJECT</h2>
+                <p>
+                    Forgotten Footprints tells the stories of NASA's machines
+                    left behind on the Moon and Mars. Explore their missions,
+                    discoveries and lasting contributions to space exploration.
+                </p>
+        </section>
+            <footer class="footer">
+                <p>✦ FORGOTTEN FOOTPRINTS <span>|</span> Images credited to NASA</p>
+                <p>© 2026 Forgotten Footprints. All rights reserved</p>
+            </footer>
+
+            <script src="script.js"></script>
+    </body>
+</html>
